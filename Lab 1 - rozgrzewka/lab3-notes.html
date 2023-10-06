@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1</title>
+  </head>
+  <input type="text" id="liczba1" />
+  <button id="przelicz">Przelicz</button>
+  <div id="wyniki"></div>
+  <script src="main.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    // logowanie wartości do konsoli
+    // console.log('test')
+
+    // pobranie elementu z html-a
+    // const liczba1 = document.getElementById('liczba1')
+    const liczba2 = document.querySelector('#liczba1')
+
+    // reagowanie na zdarzenia
+    const przeliczBtn = document.querySelector('#przelicz')
+    przeliczBtn.addEventListener('click', () => {
+      console.log('User kliknął')
+    })
+
+    const input = '123'
+    // const inputNumber = +input
+    // const inputNumber = Number(input)
+    const inputNumber = parseInt(input) // parseFloat()
+
+    // klasa Math
+    const min = Math.min(1,2,3,4)
+    const max = Math.max(72,7,8,23)
+    const sum =1+45+6+23+56 // 1+2+3+4
+
+    // wpisywanie wartości do elementu html
+    const wynik = document.querySelector('#wyniki')
+    wynik.innerHTML = 'Suma: ' + sum
+    wynik.innerText = 'Suma: ' + sum
+    wynik.textContent = 'Suma: ' + sum
+
+
+    // 
+  </script>
+  <body></body>
+</html>
