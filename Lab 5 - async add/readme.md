@@ -3,8 +3,8 @@
 Załóżmy że wykonanie określonej operacji na dwóch argumentach (np. dodawania liczb) zajmuje pewien czas i musi zostać wykonane asynchronicznie.
 Funkcja wykonująca zadaną operację zwraca Promise.
 
-Asynchroniczna funkcja dodająca:  
-<!-- ```Javascript
+<!-- Asynchroniczna funkcja dodająca:  
+```Javascript
 const asyncAdd = async (a,b) => {
   if (typeof a !== 'number' || typeof b !== 'number') {
     return Promise.reject('Argumenty muszą mieć typ number!')
