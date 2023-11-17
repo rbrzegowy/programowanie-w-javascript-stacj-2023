@@ -4,7 +4,7 @@ Załóżmy że wykonanie określonej operacji na dwóch argumentach (np. dodawan
 Funkcja wykonująca zadaną operację zwraca Promise.
 
 Asynchroniczna funkcja dodająca:  
-```Javascript
+<!-- ```Javascript
 const asyncAdd = async (a,b) => {
   if (typeof a !== 'number' || typeof b !== 'number') {
     return Promise.reject('Argumenty muszą mieć typ number!')
@@ -15,7 +15,7 @@ const asyncAdd = async (a,b) => {
     }, 100)
   })
 }
-```
+``` -->
 
 ### Zadanie
 1. Napisz funkcję asyncAdd() który dodaje dwie liczby asynchronicznie. Operacja dodawania powinna zająć 100ms.
