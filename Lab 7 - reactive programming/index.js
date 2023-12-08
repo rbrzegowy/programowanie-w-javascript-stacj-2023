@@ -4,12 +4,12 @@ function interval() {
   let timer = 1
   setInterval(
     () => {
-      // mamy coupling - interval ma na sztywno zaszyte w sobie C i D (..i logger)
+      // tutaj mamy coupling - interval ma na sztywno zaszyte w sobie kolejne funkcje (..i logger)
       saveCToSessionStorage(timer)
       discoverPowerBallNumber(timer)
       timer++
     }
-    , 2000)
+    , 1000)
 }
 
 class Logger {
