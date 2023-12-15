@@ -26,3 +26,4 @@ X, Y konfigurowalne przez użytkownika.
 Rysownie linii: ctx.beginPath(), ctx.moveTo(), ctx.lineTo()     
 Wypełnianie/obrysowanie kształtu: ctx.fill(), ctx.stroke()   
 Czyszczenie canvas: ctx.clearRect()
+Sprawdzenie rozmiarów ekranu: obiekt window.screen
