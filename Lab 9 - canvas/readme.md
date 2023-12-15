@@ -6,8 +6,7 @@ Coś takiego: [Canvas - w kulki a nie w piłkę...](https://wseii-my.sharepoint.
 1. Jeśli odległość pomiędzy kulkami jest mniejsza niż Y rysuj pomiędzy nimi linię
 1. Kulki odbijają się od krawędzi strony
 1. Dodaj przyciski Start i Reset
-1. Zbadaj ile jesteś w stanie wyświetlić kulek (stabilne 60fps) przy założeniu Y = 20% szerokości ekranu  
-X, Y jest definiowane przez użytkownika (pola tekstowe lub np. suwaki - wstępnie uzupełnione)
+1. Zbadaj ile jesteś w stanie wyświetlić kulek (stabilne 60fps)
 
 ### Wersja Task Failed Successfully: 
 1. Kursor myszy odpycha/przyciąga znajdujące się w pobliżu kulki. Siła odpychania/przyciągania jest konfigurowalna.
